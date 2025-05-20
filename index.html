@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Senior Symptom Checker</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<h1>Symptom Checker</h1>
+
+<p>Select your symptoms:</p>
+<div class="symptom-list" id="symptomList">
+  <div class="symptom" data-name="Fever">🌡️ Fever</div>
+  <div class="symptom" data-name="Cough">🤧 Cough</div>
+  <div class="symptom" data-name="Headache">🤕 Headache</div>
+  <div class="symptom" data-name="Fatigue">😴 Fatigue</div>
+  <div class="symptom" data-name="Chest Pain">❤️ Chest Pain</div>
+  <div class="symptom" data-name="Shortness of Breath">😮‍💨 Shortness of Breath</div>
+</div>
+
+<button id="checkBtn" aria-label="Check Symptoms Button">Check Symptoms</button>
+<button id="sosBtn" aria-label="SOS Emergency Button">SOS Emergency</button>
+
+<div id="response" role="region" aria-live="polite" aria-atomic="true"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
